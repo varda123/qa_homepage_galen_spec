@@ -1,0 +1,351 @@
+{
+  "testId" : "1-homepage-layout",
+  "name" : "homepage layout",
+  "report" : {
+    "nodes" : [ {
+      "name" : "check homepage layout",
+      "status" : "error",
+      "time" : 1530789529292,
+      "includedTags" : [ "desktop" ],
+      "excludedTags" : [ ],
+      "sections" : [ {
+        "name" : "Home Page",
+        "place" : {
+          "filePath" : "C:\\Users\\Vardasaxena\\eclipse-workspace\\qa_galen\\src\\testClass\\resources\\homepage.gspec",
+          "lineNumber" : 9
+        },
+        "objects" : [ {
+          "name" : "qa-logo",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\Vardasaxena\\eclipse-workspace\\qa_galen\\src\\testClass\\resources\\homepage.gspec",
+              "lineNumber" : 14
+            },
+            "name" : "height 60px",
+            "highlight" : [ "qa-logo" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\Vardasaxena\\eclipse-workspace\\qa_galen\\src\\testClass\\resources\\homepage.gspec",
+              "lineNumber" : 15
+            },
+            "name" : "width  186px",
+            "highlight" : [ "qa-logo" ]
+          }, {
+            "status" : "error",
+            "place" : {
+              "filePath" : "C:\\Users\\Vardasaxena\\eclipse-workspace\\qa_galen\\src\\testClass\\resources\\homepage.gspec",
+              "lineNumber" : 16
+            },
+            "name" : "image file qainfotech_logo.jpg",
+            "errors" : [ "Element does not look like \"C:\\Users\\Vardasaxena\\eclipse-workspace\\qa_galen\\src\\testClass\\resources\\qainfotech_logo.jpg\". There are 6193 mismatching pixels but max allowed is 0" ],
+            "highlight" : [ "qa-logo" ],
+            "imageComparison" : {
+              "actualImage" : "layout-2-qa-logo-actual.png",
+              "expectedImage" : "layout-3-qa-logo-expected.png",
+              "comparisonMapImage" : "layout-4-qa-logo-map.png"
+            }
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\Vardasaxena\\eclipse-workspace\\qa_galen\\src\\testClass\\resources\\homepage.gspec",
+              "lineNumber" : 17
+            },
+            "name" : "near navigation-links-1 256px left",
+            "highlight" : [ "qa-logo", "navigation-links-1" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\Vardasaxena\\eclipse-workspace\\qa_galen\\src\\testClass\\resources\\homepage.gspec",
+              "lineNumber" : 18
+            },
+            "name" : "aligned vertically left screen 27px",
+            "highlight" : [ "qa-logo", "screen" ]
+          } ]
+        }, {
+          "name" : "search",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\Vardasaxena\\eclipse-workspace\\qa_galen\\src\\testClass\\resources\\homepage.gspec",
+              "lineNumber" : 21
+            },
+            "name" : "below container 12px",
+            "highlight" : [ "search", "container" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\Vardasaxena\\eclipse-workspace\\qa_galen\\src\\testClass\\resources\\homepage.gspec",
+              "lineNumber" : 22
+            },
+            "name" : "aligned vertically right screen 1px",
+            "highlight" : [ "search", "screen" ]
+          } ]
+        }, {
+          "name" : "search-submit",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\Vardasaxena\\eclipse-workspace\\qa_galen\\src\\testClass\\resources\\homepage.gspec",
+              "lineNumber" : 25
+            },
+            "name" : "inside screen 12px right",
+            "highlight" : [ "search-submit", "screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\Vardasaxena\\eclipse-workspace\\qa_galen\\src\\testClass\\resources\\homepage.gspec",
+              "lineNumber" : 26
+            },
+            "name" : "aligned vertically right screen 12px",
+            "highlight" : [ "search-submit", "screen" ]
+          } ]
+        }, {
+          "name" : "navigation-links-1",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\Vardasaxena\\eclipse-workspace\\qa_galen\\src\\testClass\\resources\\homepage.gspec",
+              "lineNumber" : 32
+            },
+            "name" : "aligned horizontally all navigation-links-2",
+            "highlight" : [ "navigation-links-1", "navigation-links-2" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\Vardasaxena\\eclipse-workspace\\qa_galen\\src\\testClass\\resources\\homepage.gspec",
+              "lineNumber" : 33
+            },
+            "name" : "inside screen 30px top",
+            "highlight" : [ "navigation-links-1", "screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\Vardasaxena\\eclipse-workspace\\qa_galen\\src\\testClass\\resources\\homepage.gspec",
+              "lineNumber" : 38
+            },
+            "name" : "count any \"navigation-links-*\" is 8",
+            "highlight" : [ "navigation-links-4", "navigation-links-3", "navigation-links-2", "navigation-links-1", "navigation-links-8", "navigation-links-7", "navigation-links-6", "navigation-links-5" ]
+          } ]
+        }, {
+          "name" : "navigation-links-2",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\Vardasaxena\\eclipse-workspace\\qa_galen\\src\\testClass\\resources\\homepage.gspec",
+              "lineNumber" : 32
+            },
+            "name" : "aligned horizontally all navigation-links-3",
+            "highlight" : [ "navigation-links-2", "navigation-links-3" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\Vardasaxena\\eclipse-workspace\\qa_galen\\src\\testClass\\resources\\homepage.gspec",
+              "lineNumber" : 33
+            },
+            "name" : "inside screen 30px top",
+            "highlight" : [ "navigation-links-2", "screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\Vardasaxena\\eclipse-workspace\\qa_galen\\src\\testClass\\resources\\homepage.gspec",
+              "lineNumber" : 38
+            },
+            "name" : "count any \"navigation-links-*\" is 8",
+            "highlight" : [ "navigation-links-4", "navigation-links-3", "navigation-links-2", "navigation-links-1", "navigation-links-8", "navigation-links-7", "navigation-links-6", "navigation-links-5" ]
+          } ]
+        }, {
+          "name" : "navigation-links-3",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\Vardasaxena\\eclipse-workspace\\qa_galen\\src\\testClass\\resources\\homepage.gspec",
+              "lineNumber" : 32
+            },
+            "name" : "aligned horizontally all navigation-links-4",
+            "highlight" : [ "navigation-links-3", "navigation-links-4" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\Vardasaxena\\eclipse-workspace\\qa_galen\\src\\testClass\\resources\\homepage.gspec",
+              "lineNumber" : 33
+            },
+            "name" : "inside screen 30px top",
+            "highlight" : [ "navigation-links-3", "screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\Vardasaxena\\eclipse-workspace\\qa_galen\\src\\testClass\\resources\\homepage.gspec",
+              "lineNumber" : 38
+            },
+            "name" : "count any \"navigation-links-*\" is 8",
+            "highlight" : [ "navigation-links-4", "navigation-links-3", "navigation-links-2", "navigation-links-1", "navigation-links-8", "navigation-links-7", "navigation-links-6", "navigation-links-5" ]
+          } ]
+        }, {
+          "name" : "navigation-links-4",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\Vardasaxena\\eclipse-workspace\\qa_galen\\src\\testClass\\resources\\homepage.gspec",
+              "lineNumber" : 32
+            },
+            "name" : "aligned horizontally all navigation-links-5",
+            "highlight" : [ "navigation-links-4", "navigation-links-5" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\Vardasaxena\\eclipse-workspace\\qa_galen\\src\\testClass\\resources\\homepage.gspec",
+              "lineNumber" : 33
+            },
+            "name" : "inside screen 30px top",
+            "highlight" : [ "navigation-links-4", "screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\Vardasaxena\\eclipse-workspace\\qa_galen\\src\\testClass\\resources\\homepage.gspec",
+              "lineNumber" : 38
+            },
+            "name" : "count any \"navigation-links-*\" is 8",
+            "highlight" : [ "navigation-links-4", "navigation-links-3", "navigation-links-2", "navigation-links-1", "navigation-links-8", "navigation-links-7", "navigation-links-6", "navigation-links-5" ]
+          } ]
+        }, {
+          "name" : "navigation-links-5",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\Vardasaxena\\eclipse-workspace\\qa_galen\\src\\testClass\\resources\\homepage.gspec",
+              "lineNumber" : 32
+            },
+            "name" : "aligned horizontally all navigation-links-6",
+            "highlight" : [ "navigation-links-5", "navigation-links-6" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\Vardasaxena\\eclipse-workspace\\qa_galen\\src\\testClass\\resources\\homepage.gspec",
+              "lineNumber" : 33
+            },
+            "name" : "inside screen 30px top",
+            "highlight" : [ "navigation-links-5", "screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\Vardasaxena\\eclipse-workspace\\qa_galen\\src\\testClass\\resources\\homepage.gspec",
+              "lineNumber" : 38
+            },
+            "name" : "count any \"navigation-links-*\" is 8",
+            "highlight" : [ "navigation-links-4", "navigation-links-3", "navigation-links-2", "navigation-links-1", "navigation-links-8", "navigation-links-7", "navigation-links-6", "navigation-links-5" ]
+          } ]
+        }, {
+          "name" : "navigation-links-6",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\Vardasaxena\\eclipse-workspace\\qa_galen\\src\\testClass\\resources\\homepage.gspec",
+              "lineNumber" : 32
+            },
+            "name" : "aligned horizontally all navigation-links-7",
+            "highlight" : [ "navigation-links-6", "navigation-links-7" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\Vardasaxena\\eclipse-workspace\\qa_galen\\src\\testClass\\resources\\homepage.gspec",
+              "lineNumber" : 33
+            },
+            "name" : "inside screen 30px top",
+            "highlight" : [ "navigation-links-6", "screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\Vardasaxena\\eclipse-workspace\\qa_galen\\src\\testClass\\resources\\homepage.gspec",
+              "lineNumber" : 38
+            },
+            "name" : "count any \"navigation-links-*\" is 8",
+            "highlight" : [ "navigation-links-4", "navigation-links-3", "navigation-links-2", "navigation-links-1", "navigation-links-8", "navigation-links-7", "navigation-links-6", "navigation-links-5" ]
+          } ]
+        }, {
+          "name" : "navigation-links-7",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\Vardasaxena\\eclipse-workspace\\qa_galen\\src\\testClass\\resources\\homepage.gspec",
+              "lineNumber" : 32
+            },
+            "name" : "aligned horizontally all navigation-links-8",
+            "highlight" : [ "navigation-links-7", "navigation-links-8" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\Vardasaxena\\eclipse-workspace\\qa_galen\\src\\testClass\\resources\\homepage.gspec",
+              "lineNumber" : 33
+            },
+            "name" : "inside screen 30px top",
+            "highlight" : [ "navigation-links-7", "screen" ]
+          }, {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\Vardasaxena\\eclipse-workspace\\qa_galen\\src\\testClass\\resources\\homepage.gspec",
+              "lineNumber" : 38
+            },
+            "name" : "count any \"navigation-links-*\" is 8",
+            "highlight" : [ "navigation-links-4", "navigation-links-3", "navigation-links-2", "navigation-links-1", "navigation-links-8", "navigation-links-7", "navigation-links-6", "navigation-links-5" ]
+          } ]
+        }, {
+          "name" : "navigation-links-8",
+          "specs" : [ {
+            "status" : "info",
+            "place" : {
+              "filePath" : "C:\\Users\\Vardasaxena\\eclipse-workspace\\qa_galen\\src\\testClass\\resources\\homepage.gspec",
+              "lineNumber" : 38
+            },
+            "name" : "count any \"navigation-links-*\" is 8",
+            "highlight" : [ "navigation-links-4", "navigation-links-3", "navigation-links-2", "navigation-links-1", "navigation-links-8", "navigation-links-7", "navigation-links-6", "navigation-links-5" ]
+          } ]
+        } ]
+      } ],
+      "objects" : {
+        "container" : {
+          "area" : [ 0, 30, 1339, 78 ]
+        },
+        "screen" : {
+          "area" : [ 0, 0, 1339, 9648 ]
+        },
+        "search-submit" : {
+          "area" : [ 1251, 121, 76, 34 ]
+        },
+        "navigation-links-4" : {
+          "area" : [ 767, 30, 129, 78 ]
+        },
+        "navigation-links-3" : {
+          "area" : [ 657, 30, 110, 78 ]
+        },
+        "search" : {
+          "area" : [ 1063, 120, 275, 45 ]
+        },
+        "navigation-links-2" : {
+          "area" : [ 556, 30, 101, 78 ]
+        },
+        "navigation-links-1" : {
+          "area" : [ 469, 30, 87, 78 ]
+        },
+        "qa-logo" : {
+          "area" : [ 27, 45, 186, 60 ]
+        },
+        "navigation-links-8" : {
+          "area" : [ 1234, 30, 104, 78 ]
+        },
+        "navigation-links-7" : {
+          "area" : [ 1156, 30, 79, 78 ]
+        },
+        "navigation-links-6" : {
+          "area" : [ 1078, 30, 77, 78 ]
+        },
+        "navigation-links-5" : {
+          "area" : [ 895, 30, 183, 78 ]
+        }
+      },
+      "screenshot" : "layout-1-screenshot.png",
+      "type" : "layout"
+    } ]
+  }
+}

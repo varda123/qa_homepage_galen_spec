@@ -1,0 +1,42 @@
+#Declaring objects with css and xpath locators
+@objects
+  container             xpath     //*[@id="trueHeader"]/div/div
+  qa-logo               xpath     //*[@id="trueHeader"]/div/div/header/div[1]/a/img
+  navigation-links-*    xpath     //*[@id="menu-onepage"]/nav/ul/li/a
+  search                xpath     //*[@id="execphp-_x_system-1420429459"]/div/div[2]
+  search-submit         xpath     //*[@id="searchsubmit"]
+#Home Page Tag
+= Home Page =
+  #This is for Desktop
+   @on desktop
+       
+       qa-logo:
+           height 60px
+           width  186px
+           image file qainfotech_logo.jpg
+           near navigation-links-1 256px left
+           aligned vertically left screen 27px 
+           
+       search:
+           below container 12px
+           aligned vertically right screen 1px 
+           
+       search-submit:
+                  inside screen 12px right
+                  aligned vertically right screen 12px
+           
+           #Each navigation links must be alligned horizontally to each other
+       #itemName -> Current item and nextItem -> Next item
+       @forEach [navigation-links-*] as itemName, next as nextItem
+           ${itemName}:
+               aligned horizontally all ${nextItem}
+               inside screen 30px top 
+               
+         
+         #count number of navigation links
+       navigation-links-*:
+           count any "navigation-links-*" is 8
+           
+                  
+         
+       

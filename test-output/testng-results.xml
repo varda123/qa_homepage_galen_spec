@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19461" started-at="2018-07-05T11:18:30Z" finished-at="2018-07-05T11:18:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19461" started-at="2018-07-05T11:18:30Z" finished-at="2018-07-05T11:18:49Z">
+      <class name="testClass.qaHomepage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testClass.qaHomepage@8bd1b6a]" name="setUp" is-config="true" duration-ms="15656" started-at="2018-07-05T16:48:30Z" finished-at="2018-07-05T16:48:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="elemnt()[pri:0, instance:testClass.qaHomepage@8bd1b6a]" name="elemnt" duration-ms="96" started-at="2018-07-05T16:48:45Z" finished-at="2018-07-05T16:48:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elemnt -->
+        <test-method status="PASS" signature="homePageLayoutTest()[pri:0, instance:testClass.qaHomepage@8bd1b6a]" name="homePageLayoutTest" duration-ms="3691" started-at="2018-07-05T16:48:46Z" finished-at="2018-07-05T16:48:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageLayoutTest -->
+      </class> <!-- testClass.qaHomepage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
